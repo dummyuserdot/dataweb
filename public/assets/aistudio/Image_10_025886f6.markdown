@@ -1,0 +1,223 @@
+---
+name: Haute Horlogerie Heritage
+colors:
+  surface: '#121317'
+  surface-dim: '#121317'
+  surface-bright: '#38393e'
+  surface-container-lowest: '#0d0e12'
+  surface-container-low: '#1a1b20'
+  surface-container: '#1f1f24'
+  surface-container-high: '#292a2e'
+  surface-container-highest: '#343439'
+  on-surface: '#e3e2e8'
+  on-surface-variant: '#d0c5af'
+  inverse-surface: '#e3e2e8'
+  inverse-on-surface: '#2f3035'
+  outline: '#99907c'
+  outline-variant: '#4d4635'
+  surface-tint: '#e9c349'
+  primary: '#f2ca50'
+  on-primary: '#3c2f00'
+  primary-container: '#d4af37'
+  on-primary-container: '#554300'
+  inverse-primary: '#735c00'
+  secondary: '#e7c35a'
+  on-secondary: '#3d2f00'
+  secondary-container: '#896c00'
+  on-secondary-container: '#fff3dc'
+  tertiary: '#d2cec7'
+  on-tertiary: '#31302b'
+  tertiary-container: '#b6b3ac'
+  on-tertiary-container: '#474540'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffe088'
+  primary-fixed-dim: '#e9c349'
+  on-primary-fixed: '#241a00'
+  on-primary-fixed-variant: '#574500'
+  secondary-fixed: '#ffe08b'
+  secondary-fixed-dim: '#e7c35a'
+  on-secondary-fixed: '#241a00'
+  on-secondary-fixed-variant: '#584400'
+  tertiary-fixed: '#e6e2da'
+  tertiary-fixed-dim: '#c9c6bf'
+  on-tertiary-fixed: '#1c1c17'
+  on-tertiary-fixed-variant: '#484741'
+  background: '#121317'
+  on-background: '#e3e2e8'
+  surface-variant: '#343439'
+typography:
+  display:
+    fontFamily: Playfair Display
+    fontSize: 56px
+    fontWeight: '400'
+    lineHeight: 68px
+    letterSpacing: -0.02em
+  display-mobile:
+    fontFamily: Playfair Display
+    fontSize: 38px
+    fontWeight: '400'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '400'
+    lineHeight: 52px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 38px
+    letterSpacing: 0em
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: 38px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 30px
+    letterSpacing: 0.01em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '300'
+    lineHeight: 30px
+    letterSpacing: 0.01em
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: 0.01em
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.02em
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.14em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.18em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.22em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 2rem
+  gutter-mobile: 1rem
+  margin: 4rem
+  margin-mobile: 1.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.75rem
+  space-xl: 3rem
+---
+
+## Brand & Style
+
+This design system expresses the sovereign precision, timeless heritage, and architectural gravity of high-end Swiss horology. Crafted for collectors, connoisseurs, and private bespoke clients, the experience balances uncompromising digital minimalism with the sensory depth of physical master watchmaking.
+
+The aesthetic fuses **Architectural Minimalism** with **Atmospheric Glassmorphism**. Layouts employ deliberate negative space, razor-sharp alignment, and cinematic proportions reminiscent of fine editorial publishing. Visual tension is achieved by pairing deep, light-absorbing obsidian foundations with luminescent champagne gold accents, delicate frosted crystal strata, and whisper-thin metallic perimeters. The interface avoids frivolous micro-interactions in favor of slow, deliberate, friction-free transitions that evoke the silent movement of a tourbillon caliber.
+
+## Colors
+
+The palette is rooted in an uncompromising dark spectrum that mirrors the anti-reflective crystal, darkened titanium, and polished obsidian of haute horlogerie ateliers.
+
+- **Obsidian Foundations (`#0B0C10`, `#12141A`)**: Serve as the canvas, absorbing visual noise and imparting dramatic depth. Elevated surfaces utilize charcoal undertones (`#181B22`) to establish visual separation without introducing distracting contrasts.
+- **Champagne Gold Accents (`#D4AF37`, `#E5C158`)**: Reserved strictly for focal indicators, active states, key metrics, and prestigious micro-details. Used with surgical restraint to preserve rarity and value.
+- **Warm Ivory & Pearl (`#FDFBF7`, `#F4F0E8`)**: Applied to high-contrast headlines and editorial pull quotes, offering a softer, warmer, and more organic legibility than stark clinical white.
+- **Muted Platinum & Steel (`#9CA3AF`, `#E5E7EB`)**: Used for technical readouts, secondary copy, captions, and structural grid rules.
+- **Border Overlays**: Fine borders consistently draw from `rgba(212, 175, 55, 0.18)` on interactive layers and `rgba(255, 255, 255, 0.08)` on secondary containers.
+
+## Typography
+
+Typographic hierarchy relies on the dynamic between **Playfair Display** and **Plus Jakarta Sans**. 
+
+- **Playfair Display** introduces haute editorial elegance, commanding large headings, grand numbers, model denominations, and complication names. It is set with relaxed proportions and generous leading to mirror bespoke print books.
+- **Plus Jakarta Sans** delivers clarity for specifications, continuous prose, caliber dimensions, and transactional mechanisms. Body weights lean toward Light (`300`) and Regular (`400`) to sustain an airy, uncrowded presence.
+- **Tracking & Micro-Typography**: All uppercase labels, metadata indicators, serial stamps, and badge identifiers leverage aggressive positive tracking (`0.14em` to `0.22em`) to evoke technical dial engravings and Swiss certification marks.
+
+## Layout & Spacing
+
+The layout model is governed by an architectural 12-column fluid grid on desktop, scaling down to an 8-column layout on tablet and a 4-column structure on mobile devices.
+
+- **Negative Space**: Generous whitespace is an intentional indicator of prestige. Modules must never feel constrained. Large product imagery and complication showcases occupy full-bleed or wide multi-column spans.
+- **Vertical Rhythm**: Pacing between discrete case studies and timepiece showcases utilizes wide section margins (`3rem` to `6rem`), creating a contemplative cadence.
+- **Responsive Adaptation**:
+  - **Desktop (≥ 1280px)**: 12 columns, `2rem` gutters, outer margin `4rem` (or capped maximum container width of `1440px` centered).
+  - **Tablet (768px – 1279px)**: 8 columns, `1.5rem` gutters, `2.5rem` outer margin.
+  - **Mobile (< 768px)**: 4 columns, `1rem` gutters, `1.5rem` outer margin. Vertical stacking prioritizes macro photography before technical specifications.
+
+## Elevation & Depth
+
+Visual hierarchy is constructed without heavy, artificial dropshadows. Depth is articulated through **frosted crystal planes**, **tonal obsidian shifts**, and **micro-gold illumination**:
+
+1. **Atelier Base (Ground)**: Deep obsidian `#0B0C10`, non-reflective, flat base.
+2. **Sapphire Substrates (Level 1)**: Translucent surface layers (`#12141A` at 85% opacity) backed by a hardware-accelerated blur (`backdrop-filter: blur(24px)`). Outlined with an ultra-thin hairline border (`1px solid rgba(255, 255, 255, 0.07)`).
+3. **Floating Horological Docks & Overlays (Level 2)**: Modals, flyouts, and sticky navigation use `#181B22` at 70% opacity, paired with `backdrop-filter: blur(36px)` and an illuminated gold hairline perimeter (`1px solid rgba(212, 175, 55, 0.22)`).
+4. **Luminescent Glow**: For focused or activated states, subtle champagne radial glows (`box-shadow: 0 0 35px -10px rgba(212, 175, 55, 0.15)`) recreate the appearance of low light glancing across polished precious metal.
+
+## Shapes
+
+The shape architecture is calibrated to `1` (Soft), balancing surgical precision with tactile grace:
+
+- **Corner Radii**: Standard components employ `0.25rem` (4px) radii, echoing precision-cut sapphire crystals and brushed bevels. Card structures and elevated modal panels step up to `rounded-lg` (`0.5rem` / 8px).
+- **Geometric Integrity**: Circular geometry is preserved strictly for dial representations, status chronometers, and astronomical moonphase complications.
+- **Hairline Framing**: Contours favor crisp, razor-sharp boundaries over organic, rounded silhouettes. This deliberate restraint distinguishes the interface from mass-market consumer software and reinforces the precision of fine Swiss engineering.
+
+## Components
+
+### Buttons & Interactive Controls
+- **Primary Action (Crown Gold)**: Champagne gold gradient fill (`#D4AF37` transitioning to `#C59F2E`), dark obsidian text (`#0B0C10`), uppercase `label-md` tracking, soft 4px corner radius. On hover, reveals a fine champagne outer glow.
+- **Secondary Action (Platinum Ghost)**: Translucent dark background (`rgba(18, 20, 26, 0.6)`), 1px border in `rgba(212, 175, 55, 0.35)`, warm ivory text (`#F4F0E8`). On hover, border opacity shifts to 100% gold and background subtly lightens.
+- **Tertiary / Inline Link**: Warm ivory or champagne gold underline that expands outward from the center on hover, accompanied by an uppercase `label-md` label.
+
+### Cards & Spec Sheets
+- Constructed using frosted glassmorphic panels (`rgba(18, 20, 26, 0.75)`, 24px blur).
+- Framed by a 1px border (`rgba(212, 175, 55, 0.15)`), softly elevated to `rgba(212, 175, 55, 0.4)` on cursor interaction.
+- Card interiors are structured with deliberate hierarchy: large serif model headers, micro-tracked technical spec labels (`label-sm`), and muted platinum body details.
+
+### Form Inputs & Selectors
+- Background: Minimalist sunken trough (`#0E1015`) with a 1px baseline or border in `rgba(255, 255, 255, 0.12)`.
+- Focus State: Border transitions seamlessly to champagne gold (`#D4AF37`), with a faint ambient gold aura. Text renders in `#FDFBF7`.
+- Labels remain in uppercase `label-sm` in `#9CA3AF`, floating cleanly above the input area.
+
+### Chips & Filter Tags
+- Architectural and low-profile. Dark translucent base with hairline platinum/gold border.
+- Selected state turns the background into subtle gold dust (`rgba(212, 175, 55, 0.15)`), with gold text and a solid 1px champagne border.
+
+### Checkboxes & Radios
+- Square (checkbox) with 2px corners, or perfectly circular (radio).
+- Default: Obsidian fill with a 1px muted border (`rgba(255, 255, 255, 0.2)`).
+- Selected: Champagne gold core mark with a crisp, fine golden border enclosure.
+
+### Bespoke Domain Components
+- **Complication Metric Pill**: High-precision indicators for power reserve, water resistance, and caliber frequency, rendered in monospaced or high-tracked sans-serif alongside a gold status pip.
+- **Curated Watch Showcase Strip**: Horizontal full-bleed snap carousel with micro-dash pagination rendered as slender gold balance bars.
